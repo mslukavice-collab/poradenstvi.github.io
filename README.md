@@ -1,6 +1,6 @@
 # Profesní web na GitHub Pages (hotový základ)
 
-Tahle šablona je jednoduchý moderní one‑page profesní web (HTML/CSS/JS), ideální pro GitHub Pages.
+Tahle šablona je jednoduchý moderní one‑page profesní web (HTML/CSS/JS), ideální pro GitHub Pages..
 
 ## 1) Rychlé nasazení na GitHub Pages
 
