@@ -1,30 +1,15 @@
-# Profesní web na GitHub Pages (hotový základ)
+# Poradenství – jednoduchá šablona (HTML/CSS)
 
-Tahle šablona je jednoduchý moderní one‑page profesní web (HTML/CSS/JS), ideální pro GitHub Pages..
+## Co je uvnitř
+- `index.html` – obsah a texty
+- `assets/style.css` – vzhled
+- `assets/main.js` – drobnosti (rok ve footeru)
+- `.nojekyll` – vypne Jekyll zpracování
+- `404.html` – vlastní 404 stránka
 
-## 1) Rychlé nasazení na GitHub Pages
+## Nasazení na GitHub Pages (user/organization site)
+Repo musí mít název přesně `poradenstvi.github.io`.
+V repu nastav: **Settings → Pages → Deploy from a branch → main → /(root)**.
+GitHub Pages hledá jako vstupní soubor `index.html` a musí být v kořeni vybrané složky.
 
-### Varianta A – „user site“ (doporučeno)
-1. Na GitHubu vytvoř nový repozitář pojmenovaný přesně `TVOJE_UZIVATELSKE_JMENO.github.io`.
-2. Nahraj do něj obsah této složky (soubor `index.html` a složku `assets/`).
-3. V repozitáři otevři **Settings → Pages**.
-4. V části **Build and deployment** zvol **Deploy from a branch**, potom vyber branch `main` a potvrď uložením.
-
-GitHub Pages hledá jako vstupní soubor `index.html` (nebo `index.md` / `README.md`).
-
-### Varianta B – „project site“
-- Repozitář může mít libovolné jméno a web poběží na `https://TVOJE_UZIVATELSKE_JMENO.github.io/nazev-repa/`.
-
-## 2) Úpravy obsahu
-- Texty a sekce upravíš v `index.html`.
-- Barvy, layout a responzivitu upravíš v `assets/style.css`.
-- Chování (přepínač motivu, rok ve footeru) je v `assets/main.js`.
-
-## 3) Kontakt / formulář
-GitHub Pages je statický hosting (bez backendu). Doporučení:
-- Nejjednodušší: použij `mailto:` odkaz.
-- Alternativa: externí služba formuláře (Formspree apod.).
-
----
-
-Vytvořeno jako „starter“ pro GitHub Pages.
+Pokud vidíš 404 „There isn't a GitHub Pages site here“, zkontroluj, že je Pages zapnuté a je vybraný správný branch/folder.
