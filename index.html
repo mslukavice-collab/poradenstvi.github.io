@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Profesní stránka – Daniel Sychra" />
+  <title>Daniel Sychra | Profesní stránky</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip" href="#content">Přeskočit na obsah</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <div class="brand">
+        <div class="avatar" aria-hidden="true">DS</div>
+        <div>
+          <div class="brand__name">Daniel Sychra</div>
+          <div class="brand__meta">IT & M365 • Automatizace • Bezpečnost • Logistika</div>
+        </div>
+      </div>
+
+      <nav class="nav" aria-label="Hlavní navigace">
+        <a href="#sluzby">Služby</a>
+        <a href="#projekty">Projekty</a>
+        <a href="#o-mne">O mně</a>
+        <a href="#kontakt">Kontakt</a>
+        <button id="theme" class="btn btn--ghost" type="button" aria-label="Přepnout motiv">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <p class="badge">K dispozici pro konzultace / projekty</p>
+          <h1>Moderní IT, které šetří čas a snižuje rizika.</h1>
+          <p class="lead">
+            Pomáhám firmám nastavit Microsoft 365, automatizovat procesy (Power Automate) a zlepšit bezpečnost (Entra ID, MFA, CA).
+          </p>
+          <div class="cta">
+            <a class="btn" href="#kontakt">Napsat</a>
+            <a class="btn btn--ghost" href="#projekty">Ukázky práce</a>
+          </div>
+          <div class="meta">
+            <span>📍 CZ</span>
+            <span>⚡ rychlé dodání</span>
+            <span>🔒 security-first</span>
+          </div>
+        </div>
+        <div class="card hero__card">
+          <h2>Rychlé info</h2>
+          <ul class="list">
+            <li><strong>Specializace:</strong> Microsoft 365, SharePoint, Exchange, Entra ID</li>
+            <li><strong>Automatizace:</strong> Power Automate, schvalování, notifikace, triage e-mailů</li>
+            <li><strong>Bezpečnost:</strong> Conditional Access, MFA, audit, incident response</li>
+          </ul>
+          <div class="divider"></div>
+          <p class="muted">Tip: uprav texty v <code>index.html</code> a barvy ve <code>assets/style.css</code>.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="sluzby" class="section">
+      <div class="container">
+        <h2>Služby</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>M365 audit & hardening</h3>
+            <p>Rychlá kontrola stavu (MFA/CA/legacy auth), doporučení a plán nápravy.</p>
+            <ul class="chips">
+              <li>Entra ID</li><li>Exchange</li><li>Defender</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Automatizace procesů</h3>
+            <p>Power Automate flowy, e-mailové triage, schvalování, upozornění, integrace.</p>
+            <ul class="chips">
+              <li>Power Automate</li><li>SharePoint</li><li>Teams</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Web & interní portály</h3>
+            <p>Jednoduché prezentační weby, intranetové portály, dokumentové struktury a oprávnění.</p>
+            <ul class="chips">
+              <li>SharePoint</li><li>IA</li><li>Permissions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projekty" class="section section--alt">
+      <div class="container">
+        <h2>Vybrané projekty (šablona)</h2>
+        <p class="muted">Tady si doplň reálné reference. Níže jsou jen placeholdery.</p>
+        <div class="grid">
+          <article class="card">
+            <h3>Automatizace příchozích požadavků</h3>
+            <p>Keyword monitoring, priorita, směrování na tým, log do SharePoint listu.</p>
+            <a class="link" href="#kontakt">Chci podobné řešení →</a>
+          </article>
+          <article class="card">
+            <h3>SharePoint struktura poboček</h3>
+            <p>Oddělené sekce, role-based přístup, šablony knihoven a metadat.</p>
+            <a class="link" href="#kontakt">Konzultace →</a>
+          </article>
+          <article class="card">
+            <h3>Bezpečnostní audit a CA policy</h3>
+            <p>Zavedení MFA, blokace legacy auth, break-glass účty, export reportů.</p>
+            <a class="link" href="#kontakt">Zajistit audit →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="o-mne" class="section">
+      <div class="container about">
+        <div>
+          <h2>O mně</h2>
+          <p>
+            Jsem IT administrátor/konzultant se zaměřením na Microsoft 365 a automatizaci. Preferuji praktická řešení:
+            jasný plán, rychlé nasazení, měřitelné výsledky.
+          </p>
+          <ul class="list">
+            <li>✅ jasný rozsah a očekávání</li>
+            <li>✅ bezpečnost a provozní udržitelnost</li>
+            <li>✅ dokumentace a předání</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Technologie</h3>
+          <div class="tags">
+            <span>Entra ID</span><span>Exchange Online</span><span>SharePoint</span><span>Power Automate</span>
+            <span>PowerShell</span><span>Defender</span><span>Azure</span><span>GitHub</span>
+          </div>
+          <div class="divider"></div>
+          <p class="muted">Chceš vícejazyčně? Přidej druhý soubor <code>index-en.html</code> a odkaz v menu.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontakt" class="section section--alt">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <p class="lead">Napiš mi stručně: co potřebuješ, kdy, a jaký je cíl.</p>
+        <div class="grid">
+          <div class="card">
+            <h3>E-mail</h3>
+            <p><a class="link" href="mailto:daniel.sychra@logex.cz">daniel.sychra@logex.cz</a></p>
+            <p class="muted">(uprav na svůj preferovaný kontakt)</p>
+          </div>
+          <div class="card">
+            <h3>Sociální sítě</h3>
+            <p class="muted">Doplň odkazy:</p>
+            <ul class="list">
+              <li><a class="link" href="#">LinkedIn</a></li>
+              <li><a class="link" href="#">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Rychlá poptávka</h3>
+            <form class="form" onsubmit="return false;">
+              <label>Jméno
+                <input placeholder="Jméno a příjmení" />
+              </label>
+              <label>E-mail
+                <input placeholder="email@domena.cz" />
+              </label>
+              <label>Zpráva
+                <textarea rows="4" placeholder="Co přesně potřebujete?" ></textarea>
+              </label>
+              <button class="btn" type="button" onclick="alert('Tato šablona neodesílá data. Pro formulář použij např. Formspree/Netlify Forms, nebo dej mailto.');">Odeslat</button>
+              <p class="muted">Formulář je demo (bez backendu). Pro GitHub Pages je nejjednodušší „mailto:“ nebo externí služba.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Daniel Sychra</span>
+      <span class="muted">Postaveno na GitHub Pages</span>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
